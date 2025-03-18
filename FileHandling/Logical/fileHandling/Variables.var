@@ -1,0 +1,21 @@
+VAR
+	FileOpen_0 : FileOpen;
+	FileRead_0 : FileRead;
+	FileWrite_0 : FileWrite;
+	FileClose_0 : FileClose;
+	FileCreate_0 : FileCreate;
+	FileDelete_0 : FileDelete;
+	DirInfo_0 : DirInfo;
+	DirRead_0 : DirRead;
+	DirCreate_0 : DirCreate;
+	data : STRING[80];
+	fileName : STRING[80];
+	ident : UDINT;
+	state : USINT;
+	writeFile : BOOL;
+	readFile : BOOL;
+	deleteFile : BOOL;
+	clear : BOOL;
+	dirName : STRING[80];
+	deviceName : STRING[80];
+END_VAR

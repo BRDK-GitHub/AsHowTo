@@ -1,0 +1,62 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?AutomationStudio WorkingVersion="6.1" FileVersion="4.9"?>
+<Hardware xmlns="http://br-automation.co.at/AS/Hardware">
+  <Module Name="X20BB62" Type="X20BB62" Version="1.3.0.0" />
+  <Module Name="X20CP0484" Type="X20CP0484" Version="1.8.1.0">
+    <Connection Connector="SL" TargetModule="X20BB62" TargetConnector="SL1" />
+    <Connector Name="IF2">
+      <Parameter ID="ActivateDevice" Value="1" />
+      <Parameter ID="ActivateSnmp" Value="2" />
+    </Connector>
+    <Connector Name="IF3">
+      <Parameter ID="CycleTime" Value="400" />
+    </Connector>
+    <Parameter ID="ConfigurationID" Value="FileHandling_Config1" />
+    <Parameter ID="Simulation" Value="1" />
+    <Parameter ID="TimerDeviceType" Value="SWIOTIMER" />
+    <Parameter ID="Cyclic1Duration" Value="10000" />
+    <Parameter ID="Cyclic1Tolerance" Value="10000" />
+    <Parameter ID="Cyclic2Duration" Value="20000" />
+    <Parameter ID="Cyclic2Tolerance" Value="20000" />
+    <Parameter ID="Cyclic3Duration" Value="50000" />
+    <Parameter ID="Cyclic3Tolerance" Value="50000" />
+    <Parameter ID="Cyclic4Duration" Value="100000" />
+    <Parameter ID="Cyclic4Tolerance" Value="100000" />
+    <Parameter ID="Cyclic5Duration" Value="200000" />
+    <Parameter ID="Cyclic5Tolerance" Value="200000" />
+    <Parameter ID="Cyclic6Duration" Value="500000" />
+    <Parameter ID="Cyclic6Tolerance" Value="500000" />
+    <Parameter ID="Cyclic7Duration" Value="1000000" />
+    <Parameter ID="Cyclic7Tolerance" Value="1000000" />
+    <Parameter ID="Cyclic8Duration" Value="10000" />
+    <Parameter ID="Cyclic8Tolerance" Value="30000000" />
+    <Group ID="FileDevice1" />
+    <Parameter ID="FileDeviceName1" Value="USER" />
+    <Parameter ID="FileDevicePath1" Value="USER_PATH" />
+    <Group ID="FileDevice2" />
+    <Parameter ID="FileDeviceName2" Value="F" />
+    <Parameter ID="FileDevicePath2" Value="F:" />
+    <Group ID="FileDevice3" />
+    <Parameter ID="FileDeviceName3" Value="TEST" />
+    <Parameter ID="FileDevicePath3" Value="F:/test" />
+    <Group ID="FileDevice4" />
+    <Parameter ID="FileDeviceName4" Value="C" />
+    <Parameter ID="FileDevicePath4" Value="C:" />
+    <Group ID="FileDevice5" />
+    <Parameter ID="FileDeviceName5" Value="D" />
+    <Parameter ID="FileDevicePath5" Value="D:" />
+    <Parameter ID="ActivateFtpServer" Value="1" />
+    <Parameter ID="FTPProtocol" Value="1" />
+    <Group ID="FtpUser1" />
+    <Parameter ID="FtpUsername1" Value="admin" />
+    <Parameter ID="FtpUserPassword1" Value="nIM63jTojMQbPoAbPMbmFY5hcHAc9f+6nMOFN6eV5vc=" Description="admin" />
+    <Parameter ID="FtpUserSalt1" Value="sRD2ml1v" />
+    <Parameter ID="FTPAccessRight1" Value="0" />
+    <Parameter ID="FTPdevice1" Value="ALL" />
+  </Module>
+  <Module Name="X20PS9600" Type="X20PS9600" Version="1.6.2.0">
+    <Connection Connector="PS" TargetModule="X20BB62" TargetConnector="PS1" />
+    <Connection Connector="SS1" TargetModule="X20TB12" TargetConnector="SS" />
+  </Module>
+  <Module Name="X20TB12" Type="X20TB12" Version="1.0.0.0" />
+</Hardware>
