@@ -1,0 +1,9 @@
+VAR
+	do1 : BOOL;
+	do2 : BOOL;
+	do3 : BOOL;
+	do4 : BOOL;
+	do5 : BOOL;
+	do6 : BOOL;
+	state : INT;
+END_VAR

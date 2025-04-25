@@ -19,10 +19,10 @@
     <Object Type="Package">mappCockpit</Object>
   </Objects>
   <Configuration ModuleId="X20CP1686X">
-    <AutomationRuntime Version="6.0.7000" />
+    <AutomationRuntime Version="6.2.1" />
     <Build GccVersion="11.3.0" />
     <DefaultTargetMemory Tasks="UserROM" />
     <Transfer SavedOfflineInstallationFolder="" SavedPipDestinationFolder="" SavedRuntimeUtilityCenterPackagePath="" />
-    <Vc FirmwareVersion="6.0.7000" />
+    <Vc FirmwareVersion="6.0.0" />
   </Configuration>
 </Cpu>

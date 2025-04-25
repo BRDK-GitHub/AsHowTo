@@ -1,0 +1,8 @@
+VAR_CONFIG
+	::HelloIO:do1 AT %QX."X20DO6322".DigitalOutput01;
+	::HelloIO:do2 AT %QX."X20DO6322".DigitalOutput02;
+	::HelloIO:do3 AT %QX."X20DO6322".DigitalOutput03;
+	::HelloIO:do4 AT %QX."X20DO6322".DigitalOutput04;
+	::HelloIO:do5 AT %QX."X20DO6322".DigitalOutput05;
+	::HelloIO:do6 AT %QX."X20DO6322".DigitalOutput06;
+END_VAR
